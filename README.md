@@ -1,36 +1,25 @@
-# fde
+# fde-scaler
 
-Course projects. Each project is a git submodule with its own repository.
+Course projects, kept together in one repository. Each project lives in its own folder.
 
 | Project | Description |
 |---|---|
-| [meridianRetail](https://github.com/pranava-mk/meridianRetail) | Support-draft review tool (human review only) |
+| [meridianRetail](meridianRetail/) | Support-draft review tool (human review only) |
 
-## Clone with all projects
-
-```bash
-git clone --recurse-submodules https://github.com/pranava-mk/fde.git
-```
-
-Already cloned without them:
+## Clone
 
 ```bash
-git submodule update --init --recursive
-```
-
-## Pull the latest of every project
-
-```bash
-git pull
-git submodule update --remote --merge
+git clone https://github.com/pranava-mk/fde-scaler.git
 ```
 
 ## Add a new project
 
-Create the project's own GitHub repo first, then:
-
 ```bash
-git submodule add https://github.com/pranava-mk/<project>.git <project>
-git commit -m "Add <project> submodule"
+mkdir <project>
+# add files, then:
+git add <project>
+git commit -m "Add <project>"
 git push
 ```
+
+Each project keeps its own `README.md`, `requirements.txt` and `.gitignore`.
