@@ -1,0 +1,29 @@
+{
+  "C1": {
+    "label": "SYNTHETIC PRERECORDED DEMO OUTPUT - not from a live model call",
+    "result": {
+      "draft_reply": "I am sorry about the broken zip on your jacket (order MR-1042). Because you reported the damage within two days of delivery, your request has been referred to our human team for return review. This is not a refund approval, and your issue is still open.",
+      "evidence_refs": ["P1", "P3", "P4"],
+      "missing_information": [],
+      "review_status": "READY_FOR_HUMAN_REVIEW"
+    }
+  },
+  "C2": {
+    "label": "SYNTHETIC PRERECORDED DEMO OUTPUT - not from a live model call",
+    "result": {
+      "draft_reply": "Before Meridian Retail can assess whether this case falls within the two-day damage-reporting rule, please provide the delivery date. A human support agent will review the request once that information is available.",
+      "evidence_refs": ["P2", "P4"],
+      "missing_information": ["delivery_date"],
+      "review_status": "NEEDS_INFORMATION"
+    }
+  },
+  "C3": {
+    "label": "SYNTHETIC PRERECORDED DEMO OUTPUT - not from a live model call",
+    "result": {
+      "draft_reply": "We cannot confirm that your issue is closed. Your replacement request for order MR-1126 is still under review, and a human support agent will follow up with you.",
+      "evidence_refs": ["P3", "P4"],
+      "missing_information": [],
+      "review_status": "BLOCKED"
+    }
+  }
+}
